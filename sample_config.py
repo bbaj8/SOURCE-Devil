@@ -26,7 +26,7 @@ class Config(object):
     TZ = os.environ.get("TZ", "Asia/Baghdad")
     # set this with required cat repo link
     UPSTREAM_REPO = os.environ.get(
-        "UPSTREAM_REPO", "https://github.com/Guevaras1explanations/TelethonArab-"
+        "UPSTREAM_REPO", "https://github.com/bbaj8/SOURCE-Devil"
     )
 
     # BASIC and MAIN CONFIG VARS
