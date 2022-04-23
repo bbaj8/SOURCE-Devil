@@ -1,4 +1,4 @@
-FROM telethonAr/telethonArab:slim-buster
+FROM SOURCE-Devil:slim-buster
 
 RUN git clone https://github.com/bbaj8/SOURCE-Devil /root/userbot
 WORKDIR /root/userbot
