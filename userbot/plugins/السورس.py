@@ -120,7 +120,7 @@ fahs = """.𓄌 : me  {my_mention}  𓇡.
 .𓄌 : My Bot  {tg_bot}  𓇡.
 .𓄌 : ping  {ping}  𓇡.
 .𓄌 : version 7.5  𓇡.
-.𓄌 : Source  : @ioi_t  𓇡."""
+.𓄌 : Source  : @R125R  𓇡."""
 @iqthon.on(admin_cmd(pattern="رابط التنصيب(?: |$)(.*)"))    
 async def source(e):
     await edit_or_reply(e, "https://t.me/R125R",)
