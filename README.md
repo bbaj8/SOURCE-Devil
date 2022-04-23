@@ -3,7 +3,7 @@
 
 **سورس دايفل هو سورس جديد ومحدث ويحتوي على الكثير من الاضافات والتحديثات الجديدة**
 
-[قناة السورس على نلكرام](https://t.me/R125R)
+[قناة السورس على نلكرام](https://t.me/)
 
 
 
@@ -12,7 +12,7 @@
 
 **its simple source based on catuserbot but in arabic language !**
 __________________________
-**[wale userbot](https://t.me/R125R)**
+**[wale userbot](https://t.me/)**
 **[catuserbot]()**
 __________________________
 **and thanks to telethon arab source**
