@@ -99,7 +99,7 @@ async def verifyLoggerGroup():
             LOGS.error(                "♛ ︙حدث استثناء عند محاولة التحقق من PRIVATE_GROUP_BOT_API_ID.\n"                + str(e)            )
     else:
         descript = "♛ ︙ لا تحذف هذه المجموعة أو تغير إلى مجموعة (إذا قمت بتغيير المجموعة ، فسيتم فقد كل شيئ .)"
-        _, groupid = await create_supergroup(            "مجموعه بوت الوالي الخاص بك", iqthon, Config.TG_BOT_USERNAME, descript        )
+        _, groupid = await create_supergroup(            "مجموعه بوت دايفل الخاص بك", iqthon, Config.TG_BOT_USERNAME, descript        )
         addgvar("PRIVATE_GROUP_BOT_API_ID", groupid)
         print("♛ ︙ تم إنشاء مجموعة المسـاعدة بنجاح وإضافتها إلى المتغيرات.")
         flag = True
