@@ -260,7 +260,7 @@ async def permalink(mention):
     await edit_or_reply(mention, f"""• اذا كنت تحتاج للمساعدة الرجاء الذهاب الى 
 
 المطور  : @R125E
-قناة السورس  : R125R
+قناة السورس  : @R125R
 قناة معلومات دايفل العرب : @R125R""")
 @iqthon.on(admin_cmd(pattern="اطفاء مؤقت( [0-9]+)?$"))    
 async def _(event):
