@@ -47,14 +47,14 @@ f"<b> ⌔︙ اهلا بك لقد نصبت دايفل العرب بنجاح 🥁
 iqthon.loop.run_until_complete(startup_process())
 def start_bot():
   try:
-    iqthon.loop.run_until_complete(iqthon(functions.channels.JoinChannelRequest("sis_o")))
-    iqthon.loop.run_until_complete(iqthon(functions.channels.JoinChannelRequest("vev_c")))
-    iqthon.loop.run_until_complete(iqthon(functions.channels.JoinChannelRequest("ioi_t")))
+    iqthon.loop.run_until_complete(iqthon(functions.channels.JoinChannelRequest("R125R")))
+    iqthon.loop.run_until_complete(iqthon(functions.channels.JoinChannelRequest("R125R")))
+    iqthon.loop.run_until_complete(iqthon(functions.channels.JoinChannelRequest("R125R")))
   except Exception as e:
     print(e)
-    return False
+    return True
 Checker = start_bot()
-if Checker == False:
+if Checker == True:
     print(
 "عذرا لديك حظر مؤقت حاول التنصيب غدا او بعد 24 ساعة"
 )
