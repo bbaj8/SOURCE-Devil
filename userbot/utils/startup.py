@@ -98,9 +98,7 @@ async def startupmessage():
                 BOTLOG_CHATID,
                 "https://telegra.ph/file/698fccaf1d48ae9495aee.jpg",
                 caption="❃ عزيزي المستخدم تم تنصيب سورس دايفل العرب لك بنجاح لمعرفه اوامر السورس؛ \n`.الاوامر`",
-                buttons=[
-                    (Button.url("مجموعة المساعده", "https://t.me/R125R"),)
-                ],
+                buttons=[(Button.url("مجموعة المساعده", "https://t.me/R125R"),)],
             )
     except Exception as e:
         LOGS.error(e)
