@@ -89,7 +89,6 @@ class CatUserBotClient(TelegramClient):
                 reg2 = "\\" + Config.SUDO_COMMAND_HAND_LER
                 REGEX_.regex1 = re.compile(reg1 + pattern)
                 REGEX_.regex2 = re.compile(reg2 + pattern)
-        
 
         def decorator(func):  # sourcery no-metrics
             async def wrapper(check):
@@ -97,9 +96,7 @@ class CatUserBotClient(TelegramClient):
                     await edit_delete(check, "ليست مجموعة ", 10)
                     return
                 if private_only and not check.is_private:
-                    await edit_delete(
-                        check, "ليست مجموعة", 10
-                    )
+                    await edit_delete(check, "ليست مجموعة", 10)
                     return
                 try:
                     await func(check)
@@ -138,9 +135,7 @@ class CatUserBotClient(TelegramClient):
                             ftext, pastetype="s", markdown=False
                         )
                         text = "**⌔"
-                        text += (
-                            "︙"
-                        )
+                        text += "︙"
                         text += f" عذرا قم بكتابه الأمر بشكل صحيح راجع : @R125R ** "
                         await check.client.send_message(
                             Config.PRIVATE_GROUP_BOT_API_ID, text, link_preview=False
@@ -247,9 +242,7 @@ class CatUserBotClient(TelegramClient):
                             ftext, pastetype="s", markdown=False
                         )
                         text = "**⌔"
-                        text += (
-                            "︙"
-                        )
+                        text += "︙"
                         text += f" عذرا قم بكتابه الأمر بشكل صحيح راجع : @R125R ** "
                         await check.client.send_message(
                             Config.PRIVATE_GROUP_BOT_API_ID, text, link_preview=False
